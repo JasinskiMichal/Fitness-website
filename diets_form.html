@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <title>Fitness</title>
+  </head>
+  <body class="height-container">
+    <nav class="nav nav-no_bgim">
+      <a href="index.html" class="nav__logo">Logo</a>
+
+      <ul class="nav__list">
+        <li><a href="index.html#home" class="nav__link">Home</a></li>
+        <li><a href="index.html#train" class="nav__link">Training plans</a></li>
+        <li><a href="index.html#diets" class="nav__link">Diets</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <div class="nav-mobile__icon"></div>
+      </ul>
+    </nav>
+
+    <form class="diets__form">
+      <input type="text" name="" id="name" class="input" placeholder="Name" />
+      <input
+        type="email"
+        name=""
+        id="email"
+        class="input"
+        placeholder="E-mail"
+      />
+
+      <div id="diet" class="dropdown-container">
+        <select class="select">
+          <option
+            value="none"
+            class="select-placeholder"
+            selected
+            disabled
+            hidden
+          >
+            Choose diet
+          </option>
+          <option>Keto</option>
+          <option>Vegetarian</option>
+          <option>Vegan</option>
+          <option>Gluten-free</option>
+          <option>Lactose-free"</option>
+          <option>Paleo</option>
+        </select>
+      </div>
+
+      <input
+        type="number"
+        name=""
+        id="height"
+        class="input"
+        placeholder="Height"
+      />
+      <input
+        type="number"
+        name=""
+        id="weight"
+        class="input"
+        placeholder="Weight"
+      />
+
+      <div id="activ" class="dropdown-container">
+        <select class="select">
+          <option
+            value="none"
+            class="select-placeholder"
+            selected
+            disabled
+            hidden
+          >
+            Acticity level
+          </option>
+          <option>Sedentary lifestyle</option>
+          <option>Low activity</option>
+          <option>Medium activity</option>
+          <option>High activity</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Submit" id="btn" class="btn btn-green" />
+    </form>
+
+    <footer class="footer">
+      <div class="footer__lists">
+        <ul class="footer__list footer__list-nav">
+          <li><a href="index.html#home" class="footer__link">Home</a></li>
+          <li>
+            <a href="index.html#train" class="footer__link">Treining plans</a>
+          </li>
+          <li><a href="index.html#diets" class="footer__link">Diets</a></li>
+          <li><a href="blog.html" class="footer__link">Blog</a></li>
+          <li><a href="index.html#contact" class="footer__link">Contact</a></li>
+        </ul>
+
+        <ul class="footer__list footer__list-socials">
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        Copyright &copy; Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Repellat, aliquid aliquam tenetur laudantium, dolorum odio
+        blanditiis dolores ea quidem quae impedit itaque eaque voluptates
+        veritatis autem, placeat illum. Corrupti, provident!
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

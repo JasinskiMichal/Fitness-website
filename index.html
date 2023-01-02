@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <title>Fitness</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">Logo</a>
+
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li>
+          <a href="#train" class="nav__link">Training plans</a>
+        </li>
+        <li><a href="#diets" class="nav__link">Diets</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="#contact" class="nav__link nav-script">Contact</a></li>
+      </ul>
+
+      <div class="nav-mobile__icon"></div>
+    </nav>
+    <div class="background-img" id="home">
+      <section class="hero">
+        <h1 class="heading-1">Achieave your genetic potential</h1>
+        <h2 class="heading-2 mg-bt-medium">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h2>
+        <button class="btn btn-green btn-mg-right">Start now</button>
+        <button class="btn btn-grey">Learn more</button>
+      </section>
+    </div>
+
+    <section class="shop" id="train">
+      <div class="shop__container">
+        <div class="product">
+          <div class="product__header">
+            <img
+              src="img/trainings/bodybuilding.webp"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__price">$99</div>
+            <h2 class="heading-2">Bodybuilding</h2>
+          </div>
+
+          <ul class="details">
+            <li class="details__item">
+              <ion-icon name="barbell-sharp"></ion-icon>
+              <p class="details__text">Build muscle</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="scale-sharp"></ion-icon>
+              <p class="details__text">Reduse fat gain</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+              <p class="details__text">Lorem, ipsum.</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+              <p class="details__text">Lorem, ipsum dolor.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product">
+          <div class="product__header">
+            <img
+              src="img/trainings/calestenics.webp"
+              alt=""
+              class="product__img"
+            />
+            <h2 class="heading-2">Calestenics</h2>
+            <div class="product__price">$59</div>
+          </div>
+
+          <ul class="details">
+            <li class="details__item">
+              <ion-icon name="barbell-sharp"></ion-icon>
+              <p class="details__text">Build muscle</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="scale-sharp"></ion-icon>
+              <p class="details__text">Reduse fat gain</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="body-sharp"></ion-icon>
+              <p class="details__text">Controle your body</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+              <p class="details__text">Lorem, ipsum dolor.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product">
+          <div class="product__header">
+            <img
+              src="img/trainings/powerlifting.webp"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__price">$89</div>
+            <h2 class="heading-2">Powerbuilding</h2>
+          </div>
+
+          <ul class="details">
+            <li class="details__item">
+              <ion-icon name="barbell-sharp"></ion-icon>
+              <p class="details__text">Get stronger</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="bar-chart-sharp"></ion-icon>
+              <p class="details__text">Achieve lifetime records</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+              <p class="details__text">Lorem, ipsum.</p>
+            </li>
+            <li class="details__item">
+              <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+              <p class="details__text">Lorem, ipsum dolor.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="blog">
+      <h2 class="heading-2">Sign up for newsletter</h2>
+      <form class="newsletter__form">
+        <input type="text" id="name" placeholder="Name" class="input" />
+        <input type="email" id="email" placeholder="E-mail" class="input" />
+        <button class="btn btn-green">Sign up</button>
+      </form>
+    </section>
+
+    <section class="diets" id="diets">
+      <form class="diets__details">
+        <h2 class="heading-2 tx-align-cnt">
+          Choose diet plan personalized only for you:
+        </h2>
+
+        <ul class="diets__list mg-bt-medium">
+          <li class="diets__item">Keto</li>
+          <li class="diets__item">Vegetarian</li>
+          <li class="diets__item">Vegan</li>
+          <li class="diets__item">Gluten-free</li>
+          <li class="diets__item">Lactose-free</li>
+          <li class="diets__item">Paleo</li>
+        </ul>
+        <a href="diets_form.html">
+          <input type="button" value="Order your plan" class="btn btn-green" />
+        </a>
+      </form>
+
+      <div class="diets__gallery">
+        <div class="diets__box-img">
+          <img src="img/diets/meal1.webp" alt="" class="diets__img" />
+        </div>
+        <div class="diets__box-img">
+          <img src="img/diets/meal2.webp" alt="" class="diets__img" />
+        </div>
+        <div class="diets__box-img">
+          <img src="img/diets/meal3.webp" alt="" class="diets__img" />
+        </div>
+        <div class="diets__box-img">
+          <img src="img/diets/meal4.webp" alt="" class="diets__img" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__lists">
+        <ul class="footer__list footer__list-nav">
+          <li><a href="#home" class="footer__link">Home</a></li>
+          <li><a href="#train" class="footer__link">Treining plans</a></li>
+          <li><a href="#diets" class="footer__link">Diets</a></li>
+          <li><a href="blog.html" class="footer__link">Blog</a></li>
+          <li><a href="#contact" class="footer__link">Contact</a></li>
+        </ul>
+
+        <ul class="footer__list footer__list-socials">
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="footer__link"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        Copyright &copy; Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Repellat, aliquid aliquam tenetur laudantium, dolorum odio
+        blanditiis dolores ea quidem quae impedit itaque eaque voluptates
+        veritatis autem, placeat illum. Corrupti, provident!
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
